@@ -33,7 +33,7 @@ function App() {
                             <PrivateRoute exact path="/" component={HomePage} />
                             <Route path="/login" component={LoginPage} />
                             <Route path="/register" component={RegisterPage} />
-                            <Route path = "/products" component={ProductPage}/>
+                            <Route path = "/compare" component={ProductPage}/>
                             <Redirect from="*" to="/" />
                         </Switch>
                     </Router>

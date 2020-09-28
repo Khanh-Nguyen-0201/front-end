@@ -119,6 +119,22 @@ export default function ResponsiveDrawer() {
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
+                <Accordion>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon/>}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography component={'span'} variant={'body2'} className={classes.heading}> Certifications </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography component={'span'} variant={'body2'}>
+
+                            {/*<RangeSlider min={2000} max={2020}/>*/}
+                            {/*<TextField id="standard-basic" label="Model year" />*/}
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
             </div>
         </div>
     )
@@ -155,6 +171,7 @@ export default function ResponsiveDrawer() {
                     </Drawer>
                     </Hidden>
                     <SearchBar>Search Products</SearchBar>
+                    <Button color="inherit" href = "/compare" >Compare</Button>
                     <Button color="inherit" href="/login" >Logout</Button>
 
                 </Toolbar>
